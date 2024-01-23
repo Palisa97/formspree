@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html>
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+    <body>
+      <h1>STUDENT FORM</h1>
+            <p> (To be completed by student)</p> 
+        <fieldset>
+                <legend>Personal details:</legend>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" value=""><br>
+            <label for="name">surname:</label><br>
+            <input type="text"id="surname" name="name" value=""><br>
+            <label for="name">Age:</label><br>
+            <input type="text" id="age" name="name" value=""><br>
+            <label for="name">Student number:</label><br>
+            <input type="text" id="Student number" name="name" value=""><br>
+            <label for="name">Identity number:</label><br>
+            <input type="text" id="Identity number" name="name" value=""><br>
+            <label for="name"> postal adress:</label><br>
+            <input type="text" id="postal adress" name="name" value=""><br>
+            <label for="name"> postal code:</label><br>
+            <input type="text" id="postal code" name="name" value=""><br>
+            <label for="name"> Contact number:</label><br>
+            <input type="text" id="Contact number" name="name" value=""><br>
+            <label for="name"> Home contact:</label><br>
+            <input type="text" id="Home contact" name="name" value=""><br>
+            <label for="name"> email adress:</label><br>
+            <input type="text" id="email adress" name="name" value=""><br>
+    </fieldset>
+            <fieldset>
+                <legend>  MARK THE RELEVANT BOX</legend>
+
+            	 <input type="radio" name="button1" value="qualification completed" onclick="completed(this.value)">
+            <label for="radio"> qualification completed</label><br>
+
+            <input type="radio"  name="button1" value="qualification not complete" onclick="completed(this.value)">
+            <label for="radio"> qualification not complete</label><br><br> 
+
+
+        <p> If qualification completed please provide detailed information below</p>
+         
+          <label for="uni">Choose University of study :</label>
+          <select id="University" name="University">
+            <option value="Unisa University of South Africa">Unisa University of South Africa</option>
+            <option value="University of Limpopo"> University of  Limpopo</option>
+            <option value="University of KwaZulu Natal">University of KwaZulu Natal</option>
+            <option value="Mangosuthu University of technology">Mangosuthu University of Technology</option>
+          </select>
+          <label for="year of study"> year of study :</label><br>
+          <input type="date" id="year of study" value="year of study"><br>
+          <label for="field of study"> field of study :</label><br>
+          <input type="text" id="field of study"  value="field of study"><br>
+          <label for="qualification name"> qualification name :</label><br>
+          <input type="text" id="qualification name"  value="qualification name"><br>
+          
+          
+    
+   
+      </fieldset>
+        <script src="./index.js"></script>
+        <button onclick="Submit()">Submit</button>
+        
+    </body>
+
+    
+        
